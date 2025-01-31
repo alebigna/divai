@@ -88,29 +88,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>My Distill Website: About this site</title>
+  <title>NOME: About us</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the website"/>
+  <meta property="description" itemprop="description" content="Here you can find information about the background of our team"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="My Distill Website: About this site"/>
+  <meta property="og:title" content="NOME: About us"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the website"/>
+  <meta property="og:description" content="Here you can find information about the background of our team"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="My Distill Website"/>
+  <meta property="og:site_name" content="NOME"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="My Distill Website: About this site"/>
-  <meta property="twitter:description" content="Some additional details about the website"/>
+  <meta property="twitter:title" content="NOME: About us"/>
+  <meta property="twitter:description" content="Here you can find information about the background of our team"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Some additional details about the website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["About us"]},{"type":"character","attributes":{},"value":["Here you can find information about the background of our team"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2098,6 +2098,316 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       darkgreen;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
@@ -2119,7 +2429,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this site","description":"Some additional details about the website","authors":[]}
+{"title":"About us","description":"Here you can find information about the background of our team","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2127,11 +2437,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">My Distill Website</a>
+<a href="index.html" class="title">NOME</a>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2141,15 +2454,71 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this site</h1>
+<h1>About us</h1>
 
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the website</p></p>
+<p>Here you can find information about the background of our team</p>
 </div>
 
 
 <div class="d-article">
+<h1 id="the-team">The team</h1>
+<p>We are a team of young and experienced enological and viticultural consultants with a unique multidisciplinary approach. Our diverse expertise allows us to tackle challenges from multiple perspectives, ensuring tailored solutions. Our journey began in 2017 at the prestigious Edmund Mach Foundation in Italy, where we pursued together our studies in Viticulture and Enology, and we worked together on our shared thesis: the renovation of an abandoned vineyard estate. Since then, our paths diverged, but our commitment to exchanging ideas and refining our craft has kept us united.</p>
+<h2 id="luca-girardi">Luca Girardi</h2>
+<p><img src="images/luce-01.jpg" width="200" style="display: block; margin: 1 auto;"/></p>
+<p>Luca is a vineyard professional. He started from the basics, with hands-on experience as a grape harvester and evolved into mastering vineyard management. Today, he excels in cultivars knowledge, sustainable treatments, and eventually ensuring optimal grape quality—the cornerstone of exceptional wines. With international experience in Italian, France and Swiss wineries, Luca has also honed his skills in producing wine in various styles. Moreover, he values finding time for continuously updating his expertise through a Master of Science in Sustainable Viticulture and Enology. His dedication ensures that every grape’s potential is fully realized.</p>
+<p><u>Most relevant experiences</u></p>
+<ul>
+<li>Vineyard operator and Cellar hand - Piollot - Champagne (Côte des Bar, France)</li>
+<li>Vineyard operator and Cellar hand - Domaine Rostaing (Côte Rôtie, France)</li>
+</ul>
+<p><u>Main skills</u></p>
+<ul>
+<li>Vineyard management</li>
+<li>Business cases</li>
+<li>Customer relations</li>
+<li>Field staff training</li>
+</ul>
+<h2 id="filippo-rigotti">Filippo Rigotti</h2>
+<p>Filippo is undeniably one of the most skilled winemakers we ever worked with. With an intuitive ability to tailor the winemaking process by nose, Filippo also possesses a deep understanding of the chemical reactions at play, enabling him to steer them with precision. This allows him to create excellent winemaking protocols. Having worked as an enologist in top wineries across Italy and France, he has perfected his style and taste across all wine types. Filippo’s versatility extends to handling both small-scale operations, as demonstrated in his own experimental cellar, and managing very large volumes of musts and wines. Provide him with the essential analyses, and he will craft exceptional results with unmatched expertise.</p>
+<p><u>Most relevant experiences</u></p>
+<ul>
+<li>Winery manager - Azienda agricola Pravis (Trentino, Italy)</li>
+<li>Cellar hand - Domaine Rostaing (Côte Rôtie, France)</li>
+</ul>
+<p><u>Main skills</u></p>
+<ul>
+<li>Winemaking management and winemaking protocols</li>
+<li>Musts and wine analyses</li>
+<li>Winery management</li>
+</ul>
+<h2 id="davide-saccardo">Davide Saccardo</h2>
+<p>Davide is our international specialist. Since graduating, his adventurous spirit has taken him to emerging wine regions around the globe. Notably, he contributed to the construction and initial development of a winery in Azerbaijan. His meticulous nature and sharp memory make him an indispensable manager with a strategic mindset. Davide’s extensive knowledge of winemaking techniques ensures he can adapt to any condition, delivering excellence every time. Currently, he is heading to New Zealand to further refine his craft in one of the world’s premier winemaking regions.</p>
+<p><u>Most relevant experiences</u></p>
+<ul>
+<li>Enologist and Operation Director - Savalan Aspi Winery (Qabala, Azerbaijan)</li>
+<li>Enologist and Winemaker - Winery K. Martini und Sohn (South Tyrol, Italy)</li>
+</ul>
+<p><u>Main skills</u></p>
+<ul>
+<li>Winemaking management</li>
+<li>Winery planning</li>
+<li>Winery staff training</li>
+</ul>
+<h2 id="alessandro-bignardi">Alessandro Bignardi</h2>
+<p><img src="images/ale-01.jpg" width="200" style="display: block; margin: 1 auto;"/></p>
+<p>Alessandro’s expertise bridges science and innovation. After stepping away from vineyards to explore rice biotechnology and indoor farming in Denmark, he earned a Master of Science in Crops and Plant Sciences. Now pursuing a PhD in grapevine physiology, Alessandro is uncovering the intricacies of bud regulation. Known for his analytical mindset and creativity, he challenges traditional practices to develop smarter, more efficient solutions. His forward-thinking approach drives research and practical advancements in our wine projects.</p>
+<p><u>Most relevant experiences</u></p>
+<ul>
+<li>Grapevine Physiology PhD Fellow - Edmund Mach Foundation (Trentino, Italy)</li>
+<li>Cellar hand and Lab technician - Bellavista (Lombardy, Italy)</li>
+</ul>
+<p><u>Main skills</u></p>
+<ul>
+<li>Project management</li>
+<li>Research and Development</li>
+</ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

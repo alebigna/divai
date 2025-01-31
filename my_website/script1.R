@@ -5,7 +5,9 @@ create_website(
   title = "My Distill Website",# Website title
   gh_pages = TRUE              # Enables GitHub Pages for hosting (optional)
 )
-setwd("~/Documents/Tanzania/my_website")
+setwd("~/Documents/GitHub/divai/my_website")
 rmarkdown::render_site()
 
 create_theme(name = "theme")
+
+rmarkdown::render_site()
