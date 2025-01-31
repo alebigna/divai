@@ -1,0 +1,17 @@
+name: "OG Enology Website"
+output_dir: "docs"
+theme: theme.css 
+navbar:
+  title: "NOME"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Us"
+      href: about.html
+    - text: "Services"
+      href: services.html
+    - text: "Projects"
+      href: projects.html
+  right:
+    - text: "Contact"
+      href: contact.html  # Add this page later
