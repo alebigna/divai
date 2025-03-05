@@ -1,8 +1,7 @@
-name: "OG Enology Website"
-output_dir: "..docs"
+name: "Divai Website"
 theme: theme.css 
 navbar:
-  title: "NOME"
+  title: "Divai"
   left:
     - text: "Home"
       href: index.html
@@ -14,4 +13,4 @@ navbar:
       href: projects.html
   right:
     - text: "Contact"
-      href: contact.html  # Add this page later
+      href: contact.html
