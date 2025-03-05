@@ -10,7 +10,7 @@ We are a team of young and experienced enological and viticultural consultants w
 
 ## Luca Girardi
 
-<img src="images/luce-01.jpg" width="200" style="display: block; margin: 1 auto;"/>
+<img src="images/luce-01.jpg" class="img-medium"/>
 
 Luca is a vineyard professional. He started from the basics, with hands-on experience as a grape harvester and evolved into mastering vineyard management. Today, he excels in cultivars knowledge, sustainable treatments, and eventually ensuring optimal grape quality—the cornerstone of exceptional wines. With international experience in Italian, France and Swiss wineries, Luca has also honed his skills in producing wine in various styles. Moreover, he values finding time for continuously updating his expertise through a Master of Science in Sustainable Viticulture and Enology. His dedication ensures that every grape’s potential is fully realized.
 
@@ -18,17 +18,17 @@ Luca is a vineyard professional. He started from the basics, with hands-on exper
 
 -   Vineyard operator and Cellar hand
 
-    - Piollot - Champagne (Côte des Bar, France)
-    - Domaine Rostaing (Côte Rôtie, France)
+    -   Piollot - Champagne (Côte des Bar, France)
+    -   Domaine Rostaing (Côte Rôtie, France)
 
 -   Vineyard tractor driver
 
     -   Tenute Lunelli (Trento, taly)
     -   Baldo Emanuele (Trento, Italy)
 
--   Vine nursery (management) worker 
-    
-    - Vivai Viticoli Trentini (Trento, Italy)
+-   Vine nursery (management) worker
+
+    -   Vivai Viticoli Trentini (Trento, Italy)
 
 [Main skills]{.underline}
 
@@ -43,13 +43,13 @@ Filippo is undeniably one of the most skilled winemakers we ever worked with. Wi
 
 [Most relevant experiences]{.underline}
 
--   Winery manager 
+-   Winery manager
 
-    - Azienda agricola Pravis (Trentino, Italy)
-    
--   Cellar hand 
-    
-    - Domaine Rostaing (Côte Rôtie, France)
+    -   Azienda agricola Pravis (Trentino, Italy)
+
+-   Cellar hand
+
+    -   Domaine Rostaing (Côte Rôtie, France)
 
 [Main skills]{.underline}
 
@@ -63,13 +63,13 @@ Davide is our international specialist. Since graduating, his adventurous spirit
 
 [Most relevant experiences]{.underline}
 
--   Enologist and Operation Director 
+-   Enologist and Operation Director
 
-    - Savalan Aspi Winery (Qabala, Azerbaijan)
+    -   Savalan Aspi Winery (Qabala, Azerbaijan)
 
--   Enologist and Winemaker 
+-   Enologist and Winemaker
 
-    - Winery K. Martini und Sohn (South Tyrol, Italy)
+    -   Winery K. Martini und Sohn (South Tyrol, Italy)
 
 [Main skills]{.underline}
 
@@ -79,23 +79,23 @@ Davide is our international specialist. Since graduating, his adventurous spirit
 
 ## Alessandro Bignardi
 
-<img src="images/ale-01.jpg" width="200" style="display: block; margin: 1 auto;"/>
+<img src="images/ale-01.jpg" class="img-medium"/>
 
 Alessandro’s expertise bridges science and innovation. After stepping away from vineyards to explore rice biotechnology and indoor farming in Denmark, he earned a Master of Science in Crops and Plant Sciences. Now pursuing a PhD in grapevine physiology, Alessandro is uncovering the intricacies of bud regulation. Known for his analytical mindset and creativity, he challenges traditional practices to develop smarter, more efficient solutions. His forward-thinking approach drives research and practical advancements in our wine projects.
 
 [Most relevant experiences]{.underline}
 
--   Grapevine Physiology PhD Fellow 
-    
-    - Edmund Mach Foundation (Trentino, Italy)
-    
+-   Grapevine Physiology PhD Fellow
+
+    -   Edmund Mach Foundation (Trentino, Italy)
+
 -   Visiting scholar affiliate
 
-    - Irrigated Agriculture Research and Extension Center at Prosser, WA (USA)
+    -   Irrigated Agriculture Research and Extension Center at Prosser, WA (USA)
 
--   Cellar hand and Lab technician 
-    
-    - Bellavista (Lombardy, Italy)
+-   Cellar hand and Lab technician
+
+    -   Bellavista (Lombardy, Italy)
 
 [Main skills]{.underline}
 

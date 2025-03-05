@@ -1,17 +1,4 @@
-
 /* base variables */
-
-/* Edit the CSS properties in this file to create a custom
-   Distill theme. Only edit values in the right column
-   for each row; values shown are the CSS defaults.
-   To return any property to the default,
-   you may set its value to: unset
-   All rows must end with a semi-colon.                      */
-
-/* Optional: embed custom fonts here with `@import`          */
-/* This must remain at the top of this file.                 */
-
-
 
 html {
   /*-- Main font sizes --*/
@@ -56,8 +43,6 @@ d-appendix {
 }
 
 /*-- WEBSITE HEADER + FOOTER --*/
-/* These properties only apply to Distill sites and blogs  */
-
 .distill-site-header {
   --title-size:       18px;
   --text-color:       rgba(255, 255, 255, 0.8);
@@ -73,6 +58,20 @@ d-appendix {
   --bkgd-color:       #0F2E3D;
 }
 
-/*-- Additional custom styles --*/
-/* Add any additional CSS rules below                      */
+/*-- Image Resizing Styles --*/
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+.img-small {
+  width: 50px !important;
+}
+
+.img-medium {
+  width: 200px !important;
+}
+
+.img-large {
+  width: 500px !important;
+}
