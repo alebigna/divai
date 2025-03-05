@@ -4,6 +4,26 @@ description: ""
 output: distill::distill_article
 ---
 
-[enologiinfami\@sbirri.ira](mailto:enologiinfami@sbirri.ira){.email}
+# Get in touch with us
 
-+39 342 795 344
+## Luca
+
+[luca.girardi97@icloud.com](mailto:luca.girardi97@icloud.com){.email}
+
+‭+39 348 8394886‬
+
+## Filippo
+
+[fpp.rigotti@gmail.com](mailto:fpp.rigotti@gmail.com){.email}
+
+‭+39 347 7732573‬
+
+## Davide
+
+[davide.saccardo@gmail.com](mailto:davide.saccardo@gmail.com){.email}
+
+## Alessandro
+
+[a.bignardi@outlook.it](mailto:a.bignardi@outlook.it){.email}
+
+‭+39 389 9416816‬
